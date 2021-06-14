@@ -25,6 +25,7 @@ public class LoginPage {
 		driver.findElement(By.className("cart")).click();
 		Thread.sleep(5000);
 		driver.findElement(By.id("CC-orderSummary-checkout")).click();
+		driver.close();
 
 	}
 
